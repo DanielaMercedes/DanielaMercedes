@@ -1,0 +1,11 @@
+In modern hospitals and research centers, medical images such as CT, MRI, and PET scans generate huge amounts of data. Traditional local servers often struggle with storage, backups, and fast access for many users at once.
+
+Cloud computing offers a flexible way to store and process these images. Instead of keeping all data on a single hospital server, the images are uploaded to secure cloud storage. Clinicians and researchers can then access the data from different locations, using web interfaces or specialised viewers that run in the browser or in virtual machines in the cloud.
+
+A typical cloud application for medical images allows users to upload DICOM files, organise them into studies, and run analysis pipelines directly on cloud instances. This can include tasks like image segmentation, feature extraction, or training deep learning models. Because the computing resources are elastic, the system can scale up when many jobs are running and scale down when they are finished, which is more efficient than buying and maintaining fixed local hardware.
+
+This is especially useful for multi‑center studies. When several hospitals collaborate, they can share anonymised imaging data in one cloud environment instead of manually sending hard drives or setting up complex VPNs. Cloud‑based access control and logging also help manage who can see which data, which is important for privacy and regulatory compliance.
+
+From a medical perspective, cloud applications can speed up the development and deployment of AI tools. Researchers can quickly test new models on large datasets, and once a model is ready, it can be integrated into a cloud service that clinicians use in their daily workflow. This reduces the time between research and real clinical impact.
+
+However, cloud solutions also have challenges. They must follow strict security and privacy regulations, such as protecting patient identities and ensuring that data are encrypted in transit and at rest. Network connectivity is another practical issue: if the internet connection is slow or unreliable, accessing large image volumes can be difficult. Despite these challenges, there is a strong trend towards cloud‑based platforms in medical imaging and other areas of biomedicine.
