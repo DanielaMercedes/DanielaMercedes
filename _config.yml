@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Daniela Valencia's website
+title: Daniela Mercedes Valencia Paredes's website
 
 # Your name to show in the footer
 author: Daniela Mercedes Valencia Paredes
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/1000014101.jpeg"
+avatar: "/assets/img/IMG_9484.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -132,7 +132,7 @@ navbar-var-length: false
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 page-col: "#CCFFCC"
-text-col: "#FFFFFF"
+text-col: "#00008B"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 navbar-col: "#125D0D"
