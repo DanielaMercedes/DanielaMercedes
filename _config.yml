@@ -10,7 +10,8 @@
 ############################
 
 # Name of website
-title: Daniela Mercedes Valencia Paredes's website
+title: Daniela Mercedes Valencia Paredes
+subtitle: Health Data Science and Research
 
 # Your name to show in the footer
 author: Daniela Mercedes Valencia Paredes
@@ -20,11 +21,11 @@ author: Daniela Mercedes Valencia Paredes
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About: "aboutme"
+  Research: "research"
+  Projects: "projects"
+  CV: "cv"
+  Contact: "contact"
 
 ################
 # --- Logo --- #
@@ -81,7 +82,8 @@ gitlab: DanielaMercedes
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Research, data science, and medical imaging projects
+url-pretty: "danielamercedes.github.io"
 
 ###########################
 # --- General options --- #
@@ -131,24 +133,20 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#CCFFCC"
-text-col: "#00008B"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#125D0D"
-navbar-text-col: "#FFFFFF"
+page-col: "#FFFFFF"        # white background
+text-col: "#222222"        # dark gray text
+link-col: "#0066CC"        # blue accent
+hover-col: "#004C99"       # darker blue on hover
+navbar-col: "#FFFFFF"      # white navbar
+navbar-text-col: "#222222" # dark text in navbar
 navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#FFFFFF"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#666666"
+footer-link-col: "#0066CC"
+footer-hover-col: "#004C99"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
-
-navbar-img: "/assets/img/IMG_9220.jpeg"
-footer-img: "/assets/img/IMG_9220.jpeg"
-page-img: "/assets/img/IMG_9220.jpeg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
